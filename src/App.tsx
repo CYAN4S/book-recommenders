@@ -1,25 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <header>Book Recommenders</header>
+      <main>
+        이 페이지는 책 추천 시스템 실험을 위해 제작된 페이지입니다.
+      </main>
+      <footer>
+        <a href="https://github.com/CYAN4S">CYAN4S</a>
+      </footer>
+    </>
   );
 }
 
